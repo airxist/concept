@@ -3,7 +3,14 @@ import React from 'react'
 const Home = () => {
   return (
     <section>
-      This is the Home Route
+      Hero
+      Workspace
+      Leading
+      Branch
+      Age
+      Clients
+      Network
+      Footer
     </section>
   )
 }
