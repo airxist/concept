@@ -1,4 +1,21 @@
-import { logo, google, palmplay, facebook, instagram, X, youtube, linkedIn, googlePlayStore, appleStore, phones, narayan, NSB, CB, Gromaxx, NBF } from "../assets";
+import {
+  logo,
+  google,
+  palmplay,
+  facebook,
+  instagram,
+  X,
+  youtube,
+  linkedIn,
+  googlePlayStore,
+  appleStore,
+  phones,
+  narayan,
+  NSB,
+  CB,
+  Gromaxx,
+  NBF
+} from "../assets";
 
 export const projectLogo = logo;
 
@@ -50,45 +67,45 @@ export const usefulLinks = [
     url: "someting"
   },
   {
-    title: "Careers",
-    url: "career"
-  },
-  {
-    title: "Contact Us",
-    url: "contact"
-  },
-  {
-    title: "News & Media",
-    url: "Awards"
-  },
-  {
-    tilte: "Awards",
-    url: "Awards"
-  },
-  {
-    title: "Blog",
-    url: "blog"
-  },
-  {
     title: "Brokerage/Aggregator!",
     url: "blog"
+  },
+  {
+    title: "Careers",
+    url: "career"
   },
   {
     title: "Landlord",
     url: "blog"
   },
   {
+    title: "Contact Us",
+    url: "contact"
+  },
+  {
     title: "Privacy Policy",
     url: "blog"
+  },
+  {
+    title: "News & Media",
+    url: "Awards"
   },
   {
     title: "Privacy Policy App",
     url: "blog"
   },
   {
+    title: "Awards",
+    url: "Awards"
+  },
+  {
     title: "Terms And Condition",
     url: "blog"
-  }
+  },
+  {
+    title: "Blog",
+    url: "blog"
+  },
 ];
 
 export const corporate_office =
@@ -97,18 +114,16 @@ export const corporate_office =
 export const registered_office =
   "Kanakia Zillion, Unit No.114, E wing, 1st Floor, BKC Annex, CSTM Road Junction, Kurla West, Mumbai, Maharashtra, India – 400070";
 
-export const copyright = `Copyright - ${
-  new Date().getFullYear
-}, MyBranch Services Private Limited | All Rights Reserved`;
+export const copyright = `Copyright - ${new Date().getFullYear()}, MyBranch Services Private Limited | All Rights Reserved`;
 
 export const socialLinks = [
   {
     id: 0,
-    icon: facebook,
+    icon: facebook
   },
   {
     id: 1,
-    icon: instagram,
+    icon: instagram
   },
   {
     id: 2,
@@ -122,13 +137,13 @@ export const socialLinks = [
     id: 4,
     icon: linkedIn
   }
-]
+];
 
 export const phoneStores = {
   googlePlayStore,
   appleStore,
   phones
-}
+};
 
 export const footerCompanies = {
   narayan,
@@ -136,4 +151,4 @@ export const footerCompanies = {
   CB,
   Gromaxx,
   NBF
-}
+};

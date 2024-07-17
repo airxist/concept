@@ -1,6 +1,6 @@
-const Section = ({children}) => {
+const Section = ({children, className}) => {
   return (
-    <section className="py-5 normal-pad">
+    <section className={`${className} pt-5`}>
       {children}
     </section>
   )

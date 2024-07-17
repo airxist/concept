@@ -10,4 +10,20 @@
   .flex-center {
     @apply flex items-center justify-center
   }
+
+  .footer-h {
+    @apply font-bold mb-3 text-base
+  }
+
+  .footer-p {
+    @apply font-normal text-sm
+  }
+
+  .footer-company {
+    @apply w-[6.815rem] h-7
+  }
+
+  .img {
+    @apply w-full h-full
+  }
 }
