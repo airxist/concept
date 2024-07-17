@@ -1,10 +1,15 @@
-import Header from "./components/Header";
+import Home from "./routes/Home";
+import { Routes, Route } from "react-router-dom";
+import SharedLayout1 from "./sharedLayouts/SharedLayout1";
 
 function App() {
   return (
     <>
-      <Header />
-      <p className="font-bold">Josemaria</p>
+    <Routes>
+      <Route path='/' element={<SharedLayout1 />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
     </>
   );
 }
