@@ -1,4 +1,4 @@
-import { logo, google, palmplay } from "../assets";
+import { logo, google, palmplay, facebook, instagram, X, youtube, linkedIn, googlePlayStore, appleStore, phones, narayan, NSB, CB, Gromaxx, NBF } from "../assets";
 
 export const projectLogo = logo;
 
@@ -104,6 +104,36 @@ export const copyright = `Copyright - ${
 export const socialLinks = [
   {
     id: 0,
-    icon: 
+    icon: facebook,
+  },
+  {
+    id: 1,
+    icon: instagram,
+  },
+  {
+    id: 2,
+    icon: X
+  },
+  {
+    id: 3,
+    icon: youtube
+  },
+  {
+    id: 4,
+    icon: linkedIn
   }
 ]
+
+export const phoneStores = {
+  googlePlayStore,
+  appleStore,
+  phones
+}
+
+export const footerCompanies = {
+  narayan,
+  NSB,
+  CB,
+  Gromaxx,
+  NBF
+}
