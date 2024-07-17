@@ -105,7 +105,7 @@ export const usefulLinks = [
   {
     title: "Blog",
     url: "blog"
-  },
+  }
 ];
 
 export const corporate_office =
@@ -152,3 +152,84 @@ export const footerCompanies = {
   Gromaxx,
   NBF
 };
+
+export const hero_title = "One Brand Three National Titles";
+
+export const national_titles = [
+  "Co-Working Brand Of the Year",
+  "Best Location Network",
+  "Shared Space Person Of the Year"
+];
+
+export const leading_network =
+  "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types. MyBranch has developed from a co-working office space network to a workspace solutions platform, that provides office space to wide business setups - from sole proprietors to start-ups, SMEs to large corporates, and MNCs. ...";
+
+export const growth_title = "Cheers to 8 amazing years of growth";
+
+export const growth_text =
+  "Cheers to 8 amazing years of growth and success at MyBranch! From humble beginnings to incredible milestones, we couldn't have done it without our fantastic team and inspiring community. Here's to the journey so far and the infinite opportunities and accomplishments ahead.";
+
+export const client_title = "Some Words From Our Clients ";
+
+export const client = [
+  {
+    name: "steave Smith",
+    role: "Manager",
+    title: "Proper guidance",
+    comment: "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
+    image: ''
+  },
+  {
+    name: "Wonderful Service",
+    role: "Designerr",
+    title: "Proper guidance",
+    comment: "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
+    image: ''
+  }
+]
+
+export const premium_client = "We are proudly partnered with several organisations, hailing from different industries, who have not only trusted our services, but have invested their faith in!"
+
+export const network = [
+  "All",
+  "West",
+  "East",
+  "South",
+  "North"
+]
+
+export const workspaces = [
+  {
+    title: "Managed Office Space",
+    brief: "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
+    image: '',
+  },
+  {
+    title: "Lite Office Space",
+    brief: "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
+    image: '',
+  },
+  {
+    title: "Shared Office Space",
+    brief: "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
+    image: '',
+  },
+  {
+    title: "Virtual Office Space",
+    brief: "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
+    image: '',
+  },
+  {
+    title: "Partnership Model",
+    brief: "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
+    image: '',
+  },
+  {
+    title: "Meeting Room",
+    brief: "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
+    image: '',
+  },
+]
+
+
+

@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from '../components/home/Hero'
 
 const Home = () => {
   return (
-    <section>
-      Hero
+    <>
+      <Hero />
       Workspace
       Leading
       Branch
@@ -11,7 +12,7 @@ const Home = () => {
       Clients
       Network
       Footer
-    </section>
+    </>
   )
 }
 
