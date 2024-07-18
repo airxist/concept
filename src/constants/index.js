@@ -26,7 +26,16 @@ import {
   steve,
   will,
   ellipse1,
-  ellipse2
+  ellipse2,
+  samsung,
+  glory,
+  axis,
+  bridge,
+  bajaj,
+  adit,
+  reliance,
+  canabra,
+  qxmedia
 } from "../assets";
 
 export {
@@ -233,7 +242,7 @@ export const clients = [
     comment:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
     image: steve,
-    ellipse: ellipse1,
+    ellipse: ellipse1
   },
   {
     name: "Will Johnson",
@@ -248,6 +257,18 @@ export const clients = [
 
 export const premium_client =
   "We are proudly partnered with several organisations, hailing from different industries, who have not only trusted our services, but have invested their faith in!";
+  
+export const premium_logo = [
+  samsung,
+  glory,
+  axis,
+  bridge,
+  bajaj,
+  adit,
+  reliance,
+  canabra,
+  qxmedia
+];
 
 export const network = ["All", "West", "East", "South", "North"];
 

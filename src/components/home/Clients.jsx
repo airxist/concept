@@ -1,4 +1,4 @@
-import { clients } from "../../constants";
+import { clients, premium_client, premium_logo } from "../../constants";
 import Section from "../../sharedLayouts/Section";
 import Heading from "../Heading";
 
@@ -34,6 +34,24 @@ const Clients = () => {
                   <div className="absolute bottom-0 right-0">
                     <img src={client.ellipse} alt="ellipse" />
                   </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        {/* Premium Clients */}
+        <div className="mt-24">
+          <Heading
+            mainText="Our"
+            spanText="Premium Clients"
+            description={premium_client}
+            fontSize2="text-[0.817rem] text-center max-w-[42rem] mx-auto"
+          />
+          <div className="flex items-center flex-wrap gap-x-20 gap-y-9 justify-center mt-12">
+            {premium_logo.map((logo, index) => {
+              return (
+                <div key={index}>
+                  <img src={logo} alt="premium logo" />
                 </div>
               );
             })}

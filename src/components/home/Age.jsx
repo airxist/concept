@@ -4,7 +4,7 @@ import BigText from "../BigText";
 
 const Age = () => {
   return (
-    <Section className="h-[32.62rem]">
+    <Section className="min-h-[32.62rem] md:h-[32.62rem]">
       <div className="flex flex-col md:flex-row md:items-center h-full w-full">
         <div className="flex-center w-full h-96 md:w-1/2 md:h-full relative overflow-hidden normal-pad">
           <BigText
