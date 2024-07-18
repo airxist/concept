@@ -3,7 +3,7 @@ import Button from "../Button";
 
 const WorkSpaceForm = () => {
   return (
-    <div>
+    <div className="min-h-1 relative">
       <div className="md:absolute left-0 z-10 m-auto md:-mt-10 w-full">
         <form className="min-h-36 bg-custom_pink max-w-[67rem] m-auto py-6 px-9 ">
           <p className="font-normal text-white text-center md:text-left text-[1.08rem]">

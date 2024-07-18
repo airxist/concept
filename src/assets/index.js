@@ -8,6 +8,8 @@ import award from './award/award.svg'
 import google from "./app/google.svg";
 import palmplay from "./app/palmplay.svg";
 
+import arrow from './arrow.svg';
+
 // socials
 import facebook from "./social/facebook.svg";
 import instagram from "./social/instagram.svg";
@@ -24,7 +26,11 @@ import CB from "./CB 1.svg";
 import Gromaxx from "./Gromaxx 1.svg";
 import NBF from "./NBF 1.svg";
 
+// workspace
+import workspace from './workspace.svg';
+
 export {
+  arrow,
   award,
   google,
   hero_map,
@@ -42,5 +48,6 @@ export {
   NSB,
   CB,
   Gromaxx,
-  NBF
+  NBF,
+  workspace
 };

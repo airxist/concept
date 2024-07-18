@@ -24,7 +24,7 @@ const Hero = () => {
           />
           <div>
             <div>
-              <h1 className="font-semibold text-[2.15rem] w-[457px] bg-gradient-to-r from-[#2B42BA] to-[#C13E92] bg-clip-text text-transparent linear-gradient(90deg, #2B428A 0%, #C13E92 100%);">
+              <h1 className="font-semibold text-[2.15rem] w-[457px] text-gradient linear-gradient(90deg, #2B428A 0%, #C13E92 100%);">
                 {hero_title}
               </h1>
               <ul className="mt-5 font-normal text-[1.23rem]">
