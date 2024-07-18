@@ -33,6 +33,10 @@ import workspace from './workspace.svg';
 import leading_bg from './leading/leading-bg.svg'
 import leading_network from './leading/leading_network.svg';
 
+// age
+import play from './play.svg';
+import video_thumbnail from './vidThumbnail.svg';
+
 export {
   arrow,
   award,
@@ -55,5 +59,7 @@ export {
   NBF,
   workspace,
   leading_bg,
-  leading_network
+  leading_network,
+  play,
+  video_thumbnail,
 };

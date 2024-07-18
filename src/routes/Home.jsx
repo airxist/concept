@@ -2,6 +2,10 @@ import React from 'react'
 import Hero from '../components/home/Hero'
 import WorkSpace from '../components/home/WorkSpace'
 import Leading from '../components/home/Leading'
+import Branch from '../components/home/Branch'
+import Age from '../components/home/Age'
+import Clients from '../components/home/Clients'
+import Network from '../components/home/Network'
 
 const Home = () => {
   return (
@@ -9,11 +13,10 @@ const Home = () => {
       <Hero />
       <WorkSpace />
       <Leading />
-      Branch
-      Age
-      Clients
-      Network
-      Footer
+      <Branch />
+      <Age />
+      <Clients />
+      <Network />
     </>
   )
 }

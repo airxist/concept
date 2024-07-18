@@ -20,7 +20,9 @@ import {
   NBF,
   workspace,
   leading_bg,
-  leading_network
+  leading_network,
+  play,
+  video_thumbnail
 } from "../assets";
 
 export {
@@ -30,8 +32,10 @@ export {
   hero_map,
   workspace,
   leading_bg,
-  leading_network
-}
+  leading_network,
+  play,
+  video_thumbnail
+};
 
 export const companyReach = [
   {
@@ -49,9 +53,8 @@ export const companyReach = [
   {
     count: 20,
     title: "Clients"
-  },
-
-]
+  }
+];
 
 export const companyAward = award;
 
@@ -194,6 +197,11 @@ export const footerCompanies = {
 };
 
 export const hero_title = "One Brand Three National Titles";
+
+export const age_title = "Cheers to 8 amazing years of growth";
+
+export const age_text =
+  "Cheers to 8 amazing years of growth and success at MyBranch! From humble beginnings to incredible milestones, we couldn't have done it without our fantastic team and inspiring community. Here's to the journey so far and the infinite opportunities and accomplishments ahead.";
 
 export const national_titles = [
   "Co-Working Brand Of the Year",
