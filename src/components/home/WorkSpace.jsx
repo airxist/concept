@@ -14,8 +14,8 @@ const WorkSpace = () => {
           spanText="Your Business needs"
         />
 
-        <div className="mt-[4.25rem] flex">
-          <div className="w-4/12 space-y-2.5 divide-y-2 min-h-[25rem] border border-orange-500">
+        <div className="mt-[4.25rem] md:flex">
+          <div className="md:w-4/12 space-y-2.5 divide-y-2 min-h-[25rem] border border-orange-500">
             {workspaces.map((spaces, spacesIndex) => {
               return (
                 <div
@@ -30,7 +30,7 @@ const WorkSpace = () => {
               );
             })}
           </div>
-          <div className="w-4/12 min-h-80 py-6 pl-12 pr-16">
+          <div className="md:w-4/12 min-h-80 py-6 pl-12 pr-16">
             <div className="relative overflow min-h-[19rem]">
               {workspaces.map((spaces, spaceIndex) => {
                 return (
@@ -53,7 +53,7 @@ const WorkSpace = () => {
               })}
             </div>
           </div>
-          <div className="w-4/12 border h-[25rem]">
+          <div className="md:w-4/12 border h-[25rem]">
             <img src={workspace} alt="workspace" className="img" />
           </div>
         </div>
