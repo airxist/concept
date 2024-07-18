@@ -37,6 +37,12 @@ import leading_network from './leading/leading_network.svg';
 import play from './play.svg';
 import video_thumbnail from './vidThumbnail.svg';
 
+//clients 
+import steve from './clients/steve-smith.svg';
+import will from './clients/will-johnson.svg';
+import ellipse1 from './clients/Ellipse 1.svg';
+import ellipse2 from './clients/Ellipse 2.svg';
+
 export {
   arrow,
   award,
@@ -62,4 +68,8 @@ export {
   leading_network,
   play,
   video_thumbnail,
+  steve,
+  will,
+  ellipse1,
+  ellipse2
 };

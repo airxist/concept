@@ -22,7 +22,11 @@ import {
   leading_bg,
   leading_network,
   play,
-  video_thumbnail
+  video_thumbnail,
+  steve,
+  will,
+  ellipse1,
+  ellipse2
 } from "../assets";
 
 export {
@@ -34,7 +38,11 @@ export {
   leading_bg,
   leading_network,
   play,
-  video_thumbnail
+  video_thumbnail,
+  steve,
+  will,
+  ellipse1,
+  ellipse2
 };
 
 export const companyReach = [
@@ -217,22 +225,24 @@ export const growth_title = "Cheers to 8 amazing years of growth";
 export const growth_text =
   "Cheers to 8 amazing years of growth and success at MyBranch! From humble beginnings to incredible milestones, we couldn't have done it without our fantastic team and inspiring community. Here's to the journey so far and the infinite opportunities and accomplishments ahead.";
 
-export const client = [
+export const clients = [
   {
     name: "steave Smith",
     role: "Manager",
     title: "Proper guidance",
     comment:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
-    image: ""
+    image: steve,
+    ellipse: ellipse1,
   },
   {
-    name: "Wonderful Service",
+    name: "Will Johnson",
     role: "Designerr",
-    title: "Proper guidance",
+    title: "Wonderful Service",
     comment:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
-    image: ""
+    image: will,
+    ellipse: ellipse2
   }
 ];
 
