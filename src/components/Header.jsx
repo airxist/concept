@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <header>
-      <div className="h-[47px] bg-custom_blue flex items-center justify-end normal-pad">
+    <header className="relative isolate">
+      <div className="h-12 bg-custom_blue flex items-center justify-end normal-pad">
         <div className="flex items-center space-x-14">
           <p className="text-white text-[0.94rem] font-semibold">{contact.phone}</p>
           <p className="text-white text-[0.94rem] font-semibold">{contact.email}</p>
@@ -31,8 +31,8 @@ const Header = () => {
             className="w-full h-full object-center object-cover"
           />
         </div>
-        <nav className="ms-auto min-w-[45.5rem]">
-          <ul className="flex items-center justify-between">
+        <nav className="ms-auto h-screen md:h-fit w-full md:min-w-[45.5rem] absolute  z-10 bg-white">
+          <ul className="flex flex-col md:flex-row items-center justify-between">
             {navigation.map((li) => {
               return (
                 <li key={li.title} className="capitalize text-[0.975rem] font-semibold">

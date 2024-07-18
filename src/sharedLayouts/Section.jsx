@@ -1,6 +1,6 @@
 const Section = ({children, className}) => {
   return (
-    <section className={`${className} pt-5`}>
+    <section className={`${className || "pt-5"}`}>
       {children}
     </section>
   )

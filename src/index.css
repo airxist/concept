@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-stroke {
+  -webkit-text-stroke: ;
+}
+
 @layer base {
   .normal-pad {
-    @apply px-[5.38rem]
+    @apply px-5 md:px-[5.38rem]
   }
 
   .flex-center {
