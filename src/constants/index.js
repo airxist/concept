@@ -18,7 +18,9 @@ import {
   CB,
   Gromaxx,
   NBF,
-  workspace
+  workspace,
+  leading_bg,
+  leading_network
 } from "../assets";
 
 export {
@@ -26,7 +28,9 @@ export {
   logo,
   award,
   hero_map,
-  workspace
+  workspace,
+  leading_bg,
+  leading_network
 }
 
 export const companyReach = [
@@ -197,7 +201,7 @@ export const national_titles = [
   "Shared Space Person Of the Year"
 ];
 
-export const leading_network =
+export const leading_network_text =
   "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types. MyBranch has developed from a co-working office space network to a workspace solutions platform, that provides office space to wide business setups - from sole proprietors to start-ups, SMEs to large corporates, and MNCs. ...";
 
 export const growth_title = "Cheers to 8 amazing years of growth";

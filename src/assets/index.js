@@ -29,6 +29,10 @@ import NBF from "./NBF 1.svg";
 // workspace
 import workspace from './workspace.svg';
 
+// leading
+import leading_bg from './leading/leading-bg.svg'
+import leading_network from './leading/leading_network.svg';
+
 export {
   arrow,
   award,
@@ -49,5 +53,7 @@ export {
   CB,
   Gromaxx,
   NBF,
-  workspace
+  workspace,
+  leading_bg,
+  leading_network
 };
