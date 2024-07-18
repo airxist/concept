@@ -1,11 +1,12 @@
 import React from 'react'
 import Hero from '../components/home/Hero'
+import WorkSpace from '../components/home/WorkSpace'
 
 const Home = () => {
   return (
     <>
       <Hero />
-      Workspace
+      <WorkSpace />
       Leading
       Branch
       Age

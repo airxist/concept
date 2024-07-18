@@ -7,7 +7,8 @@ export default {
         custom_blue: {
           DEFAULT: "#2D3D88"
         },
-        custom_ash: "#F0F0F0"
+        custom_ash: "#F0F0F0",
+        custom_pink: "#D33C92"
       }
     }
   },
