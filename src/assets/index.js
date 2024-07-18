@@ -53,9 +53,20 @@ import adit from "./premium_clients/adit.svg";
 import reliance from "./premium_clients/reliance.svg";
 import canabra from "./premium_clients/canara.svg";
 import qxmedia from "./premium_clients/qxmedia.svg";
-// axis bridge ajaj adity reliance canabra qxme
+
+// network
+import mumbai from './network/mumbai.svg';
+import nagpur from './network/Nagpur.svg';
+import nagshik from './network/nagshik.svg';
+import navi from './network/Navi mumbai.svg';
+import panaja from './network/Panaja.svg';
 
 export {
+  mumbai,
+  nagpur,
+  nagshik,
+  navi,
+  panaja,
   arrow,
   award,
   google,

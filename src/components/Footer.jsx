@@ -11,9 +11,11 @@ import {
   usefulLinks
 } from "../constants";
 
+// background: linear-gradient(97.12deg, #29428D 67.22%, #D33C92 122.89%);
+
 const Footer = () => {
   return (
-    <Section className="bg-custom_blue text-white">
+    <Section className="bg-footer-gradient text-white pt-10">
       <div className="normal-pad">
         <div>
           <h4 className="footer-h">Our Presence</h4>

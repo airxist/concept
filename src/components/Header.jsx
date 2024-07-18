@@ -31,7 +31,7 @@ const Header = () => {
             className="w-full h-full object-center object-cover"
           />
         </div>
-        <nav className="ms-auto h-screen md:h-fit w-full md:min-w-[45.5rem] absolute  z-10 bg-white">
+        <nav className="ms-auto h-screen md:h-fit w-full md:max-w-[45.5rem]  z-10 bg-white">
           <ul className="flex flex-col md:flex-row items-center justify-between">
             {navigation.map((li) => {
               return (

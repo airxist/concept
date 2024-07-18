@@ -35,7 +35,12 @@ import {
   adit,
   reliance,
   canabra,
-  qxmedia
+  qxmedia,
+  mumbai,
+  nagpur,
+  nagshik,
+  navi,
+  panaja
 } from "../assets";
 
 export {
@@ -257,7 +262,7 @@ export const clients = [
 
 export const premium_client =
   "We are proudly partnered with several organisations, hailing from different industries, who have not only trusted our services, but have invested their faith in!";
-  
+
 export const premium_logo = [
   samsung,
   glory,
@@ -270,7 +275,46 @@ export const premium_logo = [
   qxmedia
 ];
 
-export const network = ["All", "West", "East", "South", "North"];
+export const network = [
+  { action: "All", active: false },
+  { action: "West", active: true },
+  { action: "East", active: false },
+  { action: "South", active: false },
+  { action: "North", active: false }
+];
+
+export const network_location = [
+  {
+    name: "Mumbai",
+    location: "east",
+    active: false,
+    img: mumbai
+  },
+  {
+    name: "Nagpur",
+    location: "west",
+    active: false,
+    img: nagpur
+  },
+  {
+    name: "Nashik",
+    location: "south",
+    active: false,
+    img: nagshik
+  },
+  {
+    name: "Navi Mumbai",
+    location: "north",
+    active: false,
+    img: navi
+  },
+  {
+    name: "Panaji",
+    location: "east",
+    active: false,
+    img: panaja
+  }
+];
 
 export const workspaces = [
   {
