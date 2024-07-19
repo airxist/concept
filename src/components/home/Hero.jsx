@@ -4,9 +4,9 @@ import BigText from "../BigText";
 
 const Hero = () => {
   return (
-    <Section className="min-h-[32.62rem] md:h-[32.62rem]">
-      <div className="flex flex-col md:flex-row md:items-center h-full w-full">
-        <div className="flex-center w-full h-96 md:w-1/2 md:h-full relative overflow-hidden">
+    <Section className="h-screen md:h-[32.62rem]">
+      <div className="h-full md:flex md:h-full">
+        <div className="flex-center w-full px-5  md:w-1/2 h-1/2 md:h-full relative overflow-hidden">
           <BigText
             text="YEAH"
             className="hidden md:block absolute -top-32 -right-40 -z-10"
@@ -23,13 +23,13 @@ const Hero = () => {
             textClass="text-[14rem] font-extrabold"
           />
           <div>
-            <div>
-              <h1 className="font-semibold text-[2.15rem] w-[457px] text-gradient linear-gradient(90deg, #2B428A 0%, #C13E92 100%);">
+            <div className="">
+              <h1 className="font-semibold text-center text-3xl md:text-[2.15rem] md:text-left max-w-[30rem] text-gradient linear-gradient(90deg, #2B428A 0%, #C13E92 100%);">
                 {hero_title}
               </h1>
               <ul className="mt-5 font-normal text-[1.23rem]">
                 {national_titles.map((title, titleIndex) => {
-                  return <li key={titleIndex}>{title}</li>;
+                  return <li key={titleIndex} className="text-xl text-center md:text-left">{title}</li>;
                 })}
               </ul>
             </div>
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
         {/* AWARD */}
-        <div className="bg-custom_blue flex-center w-full md:w-1/2 md:h-full">
+        <div className="bg-custom_blue flex-center w-full md:w-1/2 h-1/2 md:h-full">
           <div>
             <img src={companyAward} alt="company award" />
           </div>

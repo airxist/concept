@@ -10,13 +10,13 @@ import Network from '../components/home/Network'
 const Home = () => {
   return (
     <>
-      <Hero />
-      <WorkSpace />
-      <Leading />
-      <Branch />
-      <Age />
-      <Clients />
-      <Network />
+      {/* <Hero /> */}
+      {/* <WorkSpace /> */}
+      {/* <Leading /> */}
+      {/* <Branch /> */}
+      {/* <Age /> */}
+      {/* <Clients /> */}
+      {/* <Network /> */}
     </>
   )
 }

@@ -10,7 +10,7 @@ const Network = () => {
       <div className="normal-pad pb-20">
         <Heading mainText="OUR NETWORK" spanText="NEAR YOU" />
         {/* action btns */}
-        <div className="flex-center space-x-3 mt-12">
+        <div className="flex-center space-x-3 mt-12 overflow-hidden w-full">
           {network.map((net) => {
             const { action, active } = net;
             return (
@@ -28,7 +28,7 @@ const Network = () => {
           })}
         </div>
         {/* location in picture */}
-        <div className="mt-6">
+        <div className="mt-6 overflow-hidden">
           <div className="flex items-center justify-between">
             {network_location.map((location) => {
               return (

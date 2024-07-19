@@ -3,15 +3,15 @@ import Location from "./routes/Location";
 import { Routes, Route } from "react-router-dom";
 import SharedLayout1 from "./sharedLayouts/SharedLayout1";
 
-function App() {
+const App = () => {
   return (
     <>
-    <Routes>
-      <Route path='/' element={<SharedLayout1 />}>
-        <Route index element={<Home />} />
-        <Route path="/location" element={<Location />} />
-      </Route>
-    </Routes>
+      <Routes>
+        <Route path="/" element={<SharedLayout1 />}>
+          <Route index element={<Home />} />
+          <Route path="/location" element={<Location />} />
+        </Route>
+      </Routes>
     </>
   );
 }

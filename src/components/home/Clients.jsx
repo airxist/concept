@@ -8,7 +8,7 @@ const Clients = () => {
       <div className="normal-pad">
         <div>
           <Heading mainText="SOME WORDS FROM" spanText="OUR CLIENTS" />
-          <div className="md:flex space-x-9 mt-12">
+          <div className="md:flex items-center justify-center space-x-9 mt-12">
             {clients.map((client) => {
               return (
                 <div
