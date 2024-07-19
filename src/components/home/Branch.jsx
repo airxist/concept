@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Branch = () => {
-  return (
-    <div>
-      The Branch
-    </div>
-  )
-}
+  return <div>The Branch</div>;
+};
 
-export default Branch
+export default Branch;
