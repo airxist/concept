@@ -22,10 +22,10 @@ const Footer = () => {
           <p className="footer-p">{presence}</p>
         </div>
 
-        <div className="flex items-stretch mt-8">
-          <div className="w-8/12">
-            <div className="flex">
-              <div className="w-1/2">
+        <div className="md:flex items-stretch mt-8">
+          <div className="md:w-8/12">
+            <div className="md:flex">
+              <div className="md:w-1/2">
                 <h4 className="footer-h">Useful Links</h4>
                 <div className="grid grid-cols-2 gap-y-2">
                   {usefulLinks.map((link, index) => {
@@ -39,7 +39,7 @@ const Footer = () => {
                   })}
                 </div>
               </div>
-              <div className="w-1/2 px-[3.5rem]">
+              <div className="md:w-1/2 px-[3.5rem]">
                 <div>
                   <h4 className="footer-h">Corporate Office:</h4>
                   <p className="footer-p">{corporate_office}</p>
@@ -52,7 +52,8 @@ const Footer = () => {
             </div>
             <p className="footer-p mt-12">{copyright}</p>
           </div>
-          <div className="w-4/12">
+
+          <div className="md:w-4/12">
             <div className="flex-center mt-11 space-x-1">
               {socialLinks.map((social, index) => {
                 return (
@@ -91,7 +92,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white normal-pad">
+      <div className="bg-white hidden md:block normal-pad">
         <div className="flex items-center h-16 space-x-11">
           <div className="w-2/12 h-[4.17rem] border-red-400">
             <img src={footerCompanies.narayan} alt="narayan" className="img" />
@@ -116,7 +117,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </Section> //background: linear-gradient(97.12deg, #29428D 67.22%, #D33C92 122.89%);
+    </Section>
   );
 };
 
