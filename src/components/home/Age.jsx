@@ -4,9 +4,9 @@ import BigText from "../BigText";
 
 const Age = () => {
   return (
-    <Section className="min-h-[32.62rem] md:h-[32.62rem]">
-      <div className="flex flex-col md:flex-row md:items-center h-full w-full">
-        <div className="flex-center w-full h-96 md:w-1/2 md:h-full relative overflow-hidden normal-pad">
+    <Section className="h-screen md:h-[32.62rem]">
+      <div className="h-full md:flex md:h-full">
+        <div className="flex-center w-full px-5  md:w-1/2 h-1/2 md:h-full relative overflow-hidden">
           <BigText
             text="YEAH"
             className="hidden md:block absolute -top-32 -right-40 -z-10"
@@ -23,8 +23,8 @@ const Age = () => {
             textClass="text-[14rem] font-extrabold"
           />
           <div>
-            <div>
-              <h1 className="font-semibold text-[2.15rem] max-w-[406px] text-gradient linear-gradient(90deg, #2B428A 0%, #C13E92 100%);">
+            <div className="">
+              <h1 className="font-semibold text-center text-3xl md:text-[2.15rem] md:text-left max-w-[30rem] text-gradient linear-gradient(90deg, #2B428A 0%, #C13E92 100%);">
                 {age_title}
               </h1>
               <p className="mt-5 max-w-[472px] text-[1.17rem]">{age_text}</p>

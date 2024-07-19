@@ -8,10 +8,8 @@ import {
   presence,
   registered_office,
   socialLinks,
-  usefulLinks
+  usefulLinks,
 } from "../constants";
-
-// background: linear-gradient(97.12deg, #29428D 67.22%, #D33C92 122.89%);
 
 const Footer = () => {
   return (
@@ -39,7 +37,7 @@ const Footer = () => {
                   })}
                 </div>
               </div>
-              <div className="md:w-1/2 px-[3.5rem]">
+              <div className="md:w-1/2 md:px-[3.5rem] mt-10 md:mt-0">
                 <div>
                   <h4 className="footer-h">Corporate Office:</h4>
                   <p className="footer-p">{corporate_office}</p>
@@ -50,11 +48,13 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <p className="footer-p mt-12">{copyright}</p>
+            <p className="footer-p mt-12 text-center md:text-left">
+              {copyright}
+            </p>
           </div>
 
           <div className="md:w-4/12">
-            <div className="flex-center mt-11 space-x-1">
+            <div className="flex-center mt-11 space-x-11 md:space-x-1">
               {socialLinks.map((social, index) => {
                 return (
                   <div key={social.id} className="size-[1.9rem]">

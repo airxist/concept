@@ -25,7 +25,7 @@ const Leading = () => {
             </div>
           </div>
 
-          <div className="md:w-1/2 text-white px-10 min-h-[322px]">
+          <div className="md:w-1/2 mt-10 pb-10 text-white px-10 min-h-[322px]">
             <div>
               <Heading
                 mainText="ONE OF INDIA’S LEADING"
