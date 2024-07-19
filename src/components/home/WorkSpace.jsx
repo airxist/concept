@@ -8,13 +8,13 @@ const WorkSpace = () => {
   return (
     <Section className="relative min-h-4 pb-24">
       <WorkSpaceForm />
-      <div className="normal-pad  mt-10 md:mt-48">
+      <div className="mt-10 md:mt-48">
         <Heading
           mainText="Workspaces that fit"
           spanText="Your Business needs"
         />
 
-        <div className="mt-[4.25rem] md:flex">
+        <div className="mt-[4.25rem] md:flex normal-pad">
           <div className="md:w-4/12 space-y-2.5 divide-y-2 min-h-[25rem]">
             {workspaces.map((spaces, spacesIndex) => {
               return (
