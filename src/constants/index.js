@@ -36,11 +36,6 @@ import {
   reliance,
   canabra,
   qxmedia,
-  mumbai,
-  nagpur,
-  nagshik,
-  navi,
-  panaja
 } from "../assets";
 
 export {
@@ -56,26 +51,26 @@ export {
   steve,
   will,
   ellipse1,
-  ellipse2
+  ellipse2,
 };
 
 export const companyReach = [
   {
     count: 25,
-    title: "States"
+    title: "States",
   },
   {
     count: 70,
-    title: "Cities"
+    title: "Cities",
   },
   {
     count: 80,
-    title: "Locations"
+    title: "Locations",
   },
   {
     count: 20,
-    title: "Clients"
-  }
+    title: "Clients",
+  },
 ];
 
 export const companyAward = award;
@@ -87,40 +82,40 @@ export const heroMap = hero_map;
 export const downloadApp = [
   {
     id: 0,
-    img: google
+    img: google,
   },
   {
     id: 1,
-    img: palmplay
-  }
+    img: palmplay,
+  },
 ];
 
 export const navigation = [
   {
     title: "Location",
-    url: "/location"
+    url: "/location",
   },
   {
     title: "Solutions",
-    url: "/solutions"
+    url: "/solutions",
   },
   {
     title: "Flexspace Insights",
-    url: "flexspace"
+    url: "flexspace",
   },
   {
     title: "About Us",
-    url: "/about"
+    url: "/about",
   },
   {
     title: "Contact Us",
-    url: "/contact"
-  }
+    url: "/contact",
+  },
 ];
 
 export const contact = {
   phone: "+92 8383 8383",
-  email: "info@askme.com"
+  email: "info@askme.com",
 };
 
 export const presence =
@@ -129,48 +124,48 @@ export const presence =
 export const usefulLinks = [
   {
     title: "About Us",
-    url: "someting"
+    url: "someting",
   },
   {
     title: "Brokerage/Aggregator!",
-    url: "blog"
+    url: "blog",
   },
   {
     title: "Careers",
-    url: "career"
+    url: "career",
   },
   {
     title: "Landlord",
-    url: "blog"
+    url: "blog",
   },
   {
     title: "Contact Us",
-    url: "contact"
+    url: "contact",
   },
   {
     title: "Privacy Policy",
-    url: "blog"
+    url: "blog",
   },
   {
     title: "News & Media",
-    url: "Awards"
+    url: "Awards",
   },
   {
     title: "Privacy Policy App",
-    url: "blog"
+    url: "blog",
   },
   {
     title: "Awards",
-    url: "Awards"
+    url: "Awards",
   },
   {
     title: "Terms And Condition",
-    url: "blog"
+    url: "blog",
   },
   {
     title: "Blog",
-    url: "blog"
-  }
+    url: "blog",
+  },
 ];
 
 export const corporate_office =
@@ -184,30 +179,30 @@ export const copyright = `Copyright - ${new Date().getFullYear()}, MyBranch Serv
 export const socialLinks = [
   {
     id: 0,
-    icon: facebook
+    icon: facebook,
   },
   {
     id: 1,
-    icon: instagram
+    icon: instagram,
   },
   {
     id: 2,
-    icon: X
+    icon: X,
   },
   {
     id: 3,
-    icon: youtube
+    icon: youtube,
   },
   {
     id: 4,
-    icon: linkedIn
-  }
+    icon: linkedIn,
+  },
 ];
 
 export const phoneStores = {
   googlePlayStore,
   appleStore,
-  phones
+  phones,
 };
 
 export const footerCompanies = {
@@ -215,7 +210,7 @@ export const footerCompanies = {
   NSB,
   CB,
   Gromaxx,
-  NBF
+  NBF,
 };
 
 export const hero_title = "One Brand Three National Titles";
@@ -228,7 +223,7 @@ export const age_text =
 export const national_titles = [
   "Co-Working Brand Of the Year",
   "Best Location Network",
-  "Shared Space Person Of the Year"
+  "Shared Space Person Of the Year",
 ];
 
 export const leading_network_text =
@@ -247,7 +242,7 @@ export const clients = [
     comment:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
     image: steve,
-    ellipse: ellipse1
+    ellipse: ellipse1,
   },
   {
     name: "Will Johnson",
@@ -256,8 +251,8 @@ export const clients = [
     comment:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
     image: will,
-    ellipse: ellipse2
-  }
+    ellipse: ellipse2,
+  },
 ];
 
 export const premium_client =
@@ -272,48 +267,7 @@ export const premium_logo = [
   adit,
   reliance,
   canabra,
-  qxmedia
-];
-
-export const network = [
-  { action: "All", active: false },
-  { action: "West", active: true },
-  { action: "East", active: false },
-  { action: "South", active: false },
-  { action: "North", active: false }
-];
-
-export const network_location = [
-  {
-    name: "Mumbai",
-    location: "east",
-    active: false,
-    img: mumbai
-  },
-  {
-    name: "Nagpur",
-    location: "west",
-    active: false,
-    img: nagpur
-  },
-  {
-    name: "Nashik",
-    location: "south",
-    active: false,
-    img: nagshik
-  },
-  {
-    name: "Navi Mumbai",
-    location: "north",
-    active: false,
-    img: navi
-  },
-  {
-    name: "Panaji",
-    location: "east",
-    active: false,
-    img: panaja
-  }
+  qxmedia,
 ];
 
 export const workspaces = [
@@ -322,64 +276,72 @@ export const workspaces = [
     brief:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
     image: "",
-    active: true
+    active: true,
   },
   {
     title: "Lite Office Space",
     brief:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
     image: "",
-    active: false
+    active: false,
   },
   {
     title: "Shared Office Space",
     brief:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
     image: "",
-    active: false
+    active: false,
   },
   {
     title: "Virtual Office Space",
     brief:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
     image: "",
-    active: false
+    active: false,
   },
   {
     title: "Partnership Model",
     brief:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
     image: "",
-    active: false
+    active: false,
   },
   {
     title: "Meeting Room",
     brief:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava. It is one of the major players in delivering highly sophisticated co-working spaces that suit enterprises of all types.",
     image: "",
-    active: false
-  }
+    active: false,
+  },
 ];
 
 export const branch = [
   {
     svg: "",
-    info: "Multicity reach with one service provider"
+    info: "Multicity reach with one service provider",
   },
   {
     svg: "",
-    info: "Dedicated branding space"
+    info: "Dedicated branding space",
   },
   {
     svg: "",
-    info: "Customized office layout as per requirements"
+    info: "Customized office layout as per requirements",
   },
   {
     svg: "",
-    info: "Your own office space with common facilities"
+    info: "Your own office space with common facilities",
   },
   {
     svg: "",
-    info: "Prominent player in north east region"
-  }
+    info: "Prominent player in north east region",
+  },
 ];
+
+export const contact_main = "NEED TO";
+
+export const contact_span = "GROW YOUR BUSINESS";
+
+
+export const contact_text =
+  "Contact us to get more details about growing your business";

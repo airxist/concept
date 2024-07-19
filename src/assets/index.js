@@ -18,7 +18,7 @@ import youtube from "./social/youtube.svg";
 import linkedIn from "./social/linkedIn.svg";
 import googlePlayStore from "./googlePlayStore.svg";
 import appleStore from "./appleStore.svg";
-import map from "./map.svg";
+// import map from "./map.svg";
 import phones from "./phones.svg";
 import narayan from "./narayan-logo 1.svg";
 import NSB from "./NSB&Co 1.svg";
@@ -61,7 +61,53 @@ import nagshik from './network/nagshik.svg';
 import navi from './network/Navi mumbai.svg';
 import panaja from './network/Panaja.svg';
 
+// members 
+import aji from './member/aji.svg';
+import amit from './member/amit.svg';
+import basha from './member/basha.svg';
+import kushal from './member/kushal.svg';
+import founder from './member/narayan.svg';
+import nishtha from './member/nishtha.svg';
+import shadab from './member/shadab.svg';
+import simi from './member/simi.svg';
+
+// awards
+import award1 from './award/award1.svg';
+import award2 from './award/award2.svg';
+import award3 from './award/award3.svg';
+import award4 from './award/award4.svg';
+
+// news
+import dhLogo from './news/DH.svg';
+import ttLogo from './news/TT.svg';
+import feLogo from './news/FE.svg';
+import daily_hunt from './news/daily.svg';
+import the_times from './news/The_times.svg';
+
+// branch
+import branch1 from './blog/branch1.svg';
+import branch3 from './blog/branch3.svg';
+
 export {
+  branch1,
+  branch3,
+  dhLogo,
+  ttLogo,
+  feLogo,
+  daily_hunt,
+  the_times,
+  award1,
+  award2,
+  award3,
+  award4,
+  aji,
+  amit,
+  basha,
+  kushal,
+  founder,
+  nishtha,
+  shadab,
+  simi,
   mumbai,
   nagpur,
   nagshik,
