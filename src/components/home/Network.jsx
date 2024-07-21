@@ -1,4 +1,4 @@
-import { network, network_location } from "../../constants";
+import { network, network_location } from "../../constants/network";
 import Section from "../../sharedLayouts/Section";
 import Button from "../Button";
 import Heading from "../Heading";

@@ -36,9 +36,16 @@ import {
   reliance,
   canabra,
   qxmedia,
+  join_bg,
 } from "../assets";
 
+import { join_title, join_text, joint_opening } from "./join";
+
 export {
+  join_bg,
+  join_title,
+  join_text,
+  joint_opening,
   arrow,
   logo,
   award,
@@ -341,7 +348,6 @@ export const branch = [
 export const contact_main = "NEED TO";
 
 export const contact_span = "GROW YOUR BUSINESS";
-
 
 export const contact_text =
   "Contact us to get more details about growing your business";

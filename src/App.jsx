@@ -6,6 +6,8 @@ import About from "./routes/About";
 import Awards from "./routes/Awards";
 import Contact from "./routes/Contact";
 import Members from "./routes/Members";
+import Blogs from "./routes/Blogs";
+import Join from './routes/Join';
 import News from "./routes/News";
 import LocationDescription from "./routes/LocationDescription";
 

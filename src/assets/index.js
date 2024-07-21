@@ -88,7 +88,11 @@ import the_times from './news/The_times.svg';
 import branch1 from './blog/branch1.svg';
 import branch3 from './blog/branch3.svg';
 
+// join
+import join_bg from './join/join_bg.svg';
+
 export {
+  join_bg,
   branch1,
   branch3,
   dhLogo,
