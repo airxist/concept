@@ -86,8 +86,8 @@ import the_times from './news/The_times.svg';
 import fe from './news/Fe-img.svg';
 
 // branch
-import branch1 from './blog/branch1.svg';
-import branch3 from './blog/branch3.svg';
+import blog_post1 from './blog/blog_post1.svg';
+import blog_post3 from './blog/blog_post3.svg';
 
 // join
 import join_bg from './join/join_bg.svg';
@@ -95,8 +95,8 @@ import join_bg from './join/join_bg.svg';
 
 export {
   join_bg,
-  branch1,
-  branch3,
+  blog_post1,
+  blog_post3,
   dhLogo,
   ttLogo,
   feLogo,

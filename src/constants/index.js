@@ -38,12 +38,16 @@ import {
   qxmedia,
   join_bg,
 } from "../assets";
-
+// join us
 import { join_title, join_text, joint_opening } from "./join";
-
+// news and media
 import { news_text, news_title, news } from "./news";
+// blog
+import { blog_posts, categories } from "./blog";
 
 export {
+  categories,
+  blog_posts,
   news_text,
   news_title,
   news,
@@ -327,28 +331,7 @@ export const workspaces = [
   },
 ];
 
-export const branch = [
-  {
-    svg: "",
-    info: "Multicity reach with one service provider",
-  },
-  {
-    svg: "",
-    info: "Dedicated branding space",
-  },
-  {
-    svg: "",
-    info: "Customized office layout as per requirements",
-  },
-  {
-    svg: "",
-    info: "Your own office space with common facilities",
-  },
-  {
-    svg: "",
-    info: "Prominent player in north east region",
-  },
-];
+
 
 export const contact_main = "NEED TO";
 
