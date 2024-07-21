@@ -1,4 +1,4 @@
-import { dhLogo, ttLogo, feLogo, daily_hunt, the_times } from "../assets";
+import { dhLogo, ttLogo, feLogo, daily_hunt, the_times, fe } from "../assets";
 
 export const news_title = "News & Media";
 
@@ -15,7 +15,7 @@ export const news = [
     title:
       "Workspace Flexibility and Tax Savings: A deep dive into Co-Working benefits",
     text: universal,
-    img: the_times,
+    img: fe,
     logo: feLogo,
     url: "",
     date,
@@ -37,19 +37,19 @@ export const news = [
     date,
   },
   {
-    title:
-      "Workspace Flexibility and Tax Savings: A deep dive into Co-Working benefits",
-    text: universal,
-    img: the_times,
-    logo: feLogo,
-    url: "",
-    date,
-  },
-  {
     title: "How coworking space with unique concepts and design ideas impacts ",
     text: universal,
     img: the_times,
     logo: ttLogo,
+    url: "",
+    date,
+  },
+  {
+    title:
+      "Workspace Flexibility and Tax Savings: A deep dive into Co-Working benefits",
+    text: universal,
+    img: fe,
+    logo: feLogo,
     url: "",
     date,
   },

@@ -83,6 +83,7 @@ import ttLogo from './news/TT.svg';
 import feLogo from './news/FE.svg';
 import daily_hunt from './news/daily.svg';
 import the_times from './news/The_times.svg';
+import fe from './news/Fe-img.svg';
 
 // branch
 import branch1 from './blog/branch1.svg';
@@ -90,6 +91,7 @@ import branch3 from './blog/branch3.svg';
 
 // join
 import join_bg from './join/join_bg.svg';
+
 
 export {
   join_bg,
@@ -100,6 +102,7 @@ export {
   feLogo,
   daily_hunt,
   the_times,
+  fe,
   award1,
   award2,
   award3,

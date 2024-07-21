@@ -41,7 +41,12 @@ import {
 
 import { join_title, join_text, joint_opening } from "./join";
 
+import { news_text, news_title, news } from "./news";
+
 export {
+  news_text,
+  news_title,
+  news,
   join_bg,
   join_title,
   join_text,
