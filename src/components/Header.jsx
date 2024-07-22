@@ -4,13 +4,23 @@ import { navigation } from "../constants";
 import Button from "./Button";
 import close from "../assets/close.svg";
 import { Link } from "react-router-dom";
+import { enablePageScroll, disablePageScroll } from "scroll-lock";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(true);
+  
 
-  const closeNav = () => setIsNavOpen(false);
 
-  const openNav = () => setIsNavOpen(true);
+  const closeNav = () => {
+    if (!isNavOpen) return;
+  enablePageScroll
+    setIsNavOpen(false);
+  };
+
+  const openNav = () => {
+    disablePageScroll();
+    setIsNavOpen(true)
+  }
 
   return (
     <header className="relative isolate shadow-lg">
@@ -32,7 +42,9 @@ const Header = () => {
                 );
               })}
             </div>
-            <p className="text-[0.65rem] md:text-sm text-white font-semibold">Download App</p>
+            <p className="text-[0.65rem] md:text-sm text-white font-semibold">
+              Download App
+            </p>
           </div>
         </div>
       </div>
@@ -76,7 +88,9 @@ const Header = () => {
         <Button className="bg-custom_blue hidden md:block md:px-3 py-2 text-white rounded-3xl ml-10 text-[0.75rem] md:text-base">
           Book a Demo
         </Button>
-        <Button handleClick={openNav}className="md:hidden">Menu</Button>
+        <Button handleClick={openNav} className="md:hidden">
+          Menu
+        </Button>
       </div>
     </header>
   );
