@@ -32,7 +32,7 @@ const Network = () => {
           <div className="flex items-center justify-between">
             {network_location.map((location) => {
               return (
-                <div className="relative max-w-[227px]">
+                <div className="relative max-w-[227px]" key={location.name}>
                   <div>
                     <img src={location.img} alt={location.name} />
                   </div>
