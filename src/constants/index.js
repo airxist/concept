@@ -39,7 +39,7 @@ import {
   qxmedia,
   join_bg,
   about_hero,
-  office_hero
+  office_hero,
 } from "../assets";
 // join us
 import { join_title, join_text, joint_opening } from "./join";
@@ -65,53 +65,8 @@ import {
   office_values,
   offices,
 } from "./managed-office";
-
-export {
-  office_hero,
-  office_title,
-  office_text,
-  office_text2,
-  office_long1,
-  office_long2,
-  question_main,
-  question_span,
-  question_desc,
-  Q_A,
-  office_values,
-  offices,
-  about_hero,
-  gen_text,
-  gen_title,
-  gen_text_2,
-  genesis,
-  member_main,
-  member_span,
-  member_text,
-  members,
-  categories,
-  blog_posts,
-  news_text,
-  news_title,
-  news,
-  join_bg,
-  join_title,
-  join_text,
-  joint_opening,
-  arrow,
-  logo,
-  award,
-  hero_map,
-  workspace,
-  leading_bg,
-  leading_network,
-  play,
-  video_thumbnail,
-  steve,
-  will,
-  ellipse1,
-  ellipse2,
-  linkedIn2,
-};
+// awards
+import { award_main, award_span, award_text, awards } from "./award";
 
 export const companyReach = [
   {
@@ -301,7 +256,7 @@ export const clients = [
     comment:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
     image: steve,
-    ellipse: ellipse1,
+    type: 1,
   },
   {
     name: "Will Johnson",
@@ -310,7 +265,7 @@ export const clients = [
     comment:
       "MyBranch is an office space solution provider in India, founded in 2016 by Mr. Narayan Bhargava founded in 2016 by Mr. Narayan Bhargava.",
     image: will,
-    ellipse: ellipse2,
+    type: 2,
   },
 ];
 
@@ -380,3 +335,54 @@ export const contact_span = "GROW YOUR BUSINESS";
 
 export const contact_text =
   "Contact us to get more details about growing your business";
+
+export {
+  award_main,
+  award_span,
+  award_text,
+  awards,
+  office_hero,
+  office_title,
+  office_text,
+  office_text2,
+  office_long1,
+  office_long2,
+  question_main,
+  question_span,
+  question_desc,
+  Q_A,
+  office_values,
+  offices,
+  about_hero,
+  gen_text,
+  gen_title,
+  gen_text_2,
+  genesis,
+  member_main,
+  member_span,
+  member_text,
+  members,
+  categories,
+  blog_posts,
+  news_text,
+  news_title,
+  news,
+  join_bg,
+  join_title,
+  join_text,
+  joint_opening,
+  arrow,
+  logo,
+  award,
+  hero_map,
+  workspace,
+  leading_bg,
+  leading_network,
+  play,
+  video_thumbnail,
+  steve,
+  will,
+  ellipse1,
+  ellipse2,
+  linkedIn2,
+};

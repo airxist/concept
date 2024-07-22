@@ -9,19 +9,35 @@ export const award_text =
 
 export const awards = [
   {
+    image: award1,
     title: "Coworking brand of the Year",
-    year: "2024",
+    comment: "2024",
+    type: 1,
+    before: 'We were awarded',
+    after: 'at the Flexicon India Awards.'
   },
   {
+    image: award2,
     title: "Best Location Network",
-    year: "2024",
+    comment: "2024",
+    type: 2,
+    before: 'We were awarded',
+    after: 'at the 5th Realty+ Flexspaces Conclave & Awards'
   },
   {
+    image: award3,
     title: "Shared Space Person of the Year",
-    year: "2024",
+    comment: "2024",
+    type: 2,
+    before: 'Kushal Bhargava awarded',
+    after: 'Economic Times Real Estate Certificate'
   },
   {
+    image: award4,
     title: "Shared Space Person of the Year",
-    year: "2024",
+    comment: "2024",
+    type: 1,
+    before: 'Kushal Bhargava awarded',
+    after: 'Economic Times Real Estate Certificate'
   },
 ];
