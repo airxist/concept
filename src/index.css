@@ -20,7 +20,7 @@
 }
 
   .normal-pad {
-    @apply px-5 md:px-[5.38rem]
+    @apply px-5 sm:px-5 lg:px-[5.38rem]
   }
 
   .text-gradient {
