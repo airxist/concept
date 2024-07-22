@@ -105,7 +105,35 @@ import mission from "./about/mission.svg";
 import respect from "./about/respect.svg";
 import transparency from "./about/transparency.svg";
 
+// managed offiece
+import office_hero from "./managed_office/office-hero.svg";
+import dollar from "./managed_office/dollar.svg";
+import customize from "./managed_office/customized.svg";
+import legal from "./managed_office/legal.svg";
+import office1 from "./managed_office/office1.svg";
+import office2 from "./managed_office/office2.svg";
+import office3 from "./managed_office/office3.svg";
+import unified from "./managed_office/unified.svg";
+import van from "./managed_office/van.svg";
+
+// globals
+import call from "./global/call.svg";
+import message from "./global/message.svg";
+import select from './global/select-arrow.svg';
+
 export {
+  select,
+  call,
+  message,
+  office_hero,
+  dollar,
+  customize,
+  legal,
+  office1,
+  office2,
+  office3,
+  unified,
+  van,
   about_hero,
   gen_1,
   gen_2,

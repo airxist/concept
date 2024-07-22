@@ -7,9 +7,10 @@ import Awards from "./routes/Awards";
 import Contact from "./routes/Contact";
 import Members from "./routes/Members";
 import Blogs from "./routes/Blogs";
-import Join from './routes/Join';
+import Join from "./routes/Join";
 import News from "./routes/News";
 import LocationDescription from "./routes/LocationDescription";
+import Managed from "./routes/Managed";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/join" element={<Join />} />
           <Route path="/members" element={<Members />} />
           <Route path="/news" element={<News />} />
+          <Route path="/managed" element={<Managed />} />
         </Route>
       </Routes>
     </>

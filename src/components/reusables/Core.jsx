@@ -9,10 +9,12 @@ const Core = ({
   spanClass,
   descripition,
   descriptionClass,
-  cores
+  cores,
+  gap,
+  className,
 }) => {
   return (
-    <div>
+    <div className={className}>
       <Heading
         mainText={mainText}
         mainClass={mainClass}
@@ -23,7 +25,7 @@ const Core = ({
         className=""
         normal
       />
-      <div className="flex items-center flex-wrap space-y-3 md:space-y-0 justify-center mt-10 gap-x-20">
+      <div className={`flex items-center flex-wrap space-y-3 md:space-y-0 justify-center mt-10 ${gap}`}>
         {cores.map(({icon, title}, index) => {
           return <div className={coreClassName} key={index}>
           <img src={icon} alt={title} />

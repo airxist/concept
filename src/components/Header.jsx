@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <header className="relative isolate">
+    <header className="relative isolate shadow-lg">
       <div className="h-12 bg-custom_blue flex items-center justify-end normal-pad">
         <div className="flex items-center space-x-14">
           <p className="text-white text-[0.94rem] font-semibold">{contact.phone}</p>

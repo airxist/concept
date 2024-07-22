@@ -1,0 +1,12 @@
+<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_297_1580" fill="white">
+<path d="M0.417969 0.682251H10.4843V5.71539H0.417969V0.682251Z"/>
+</mask>
+<path d="M0.417969 0.682251V-4.35089H-4.61518V0.682251H0.417969ZM10.4843 0.682251H15.5174V-4.35089H10.4843V0.682251ZM0.417969 5.71539H10.4843V-4.35089H0.417969V5.71539ZM5.45111 0.682251V5.71539H15.5174V0.682251H5.45111ZM5.45111 5.71539V0.682251H-4.61518V5.71539H5.45111Z" fill="url(#paint0_diamond_297_1580)" mask="url(#path-1-inside-1_297_1580)"/>
+<defs>
+<radialGradient id="paint0_diamond_297_1580" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.45111 0.682251) scale(5.03314)">
+<stop offset="1" stop-color="#2D3D88"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

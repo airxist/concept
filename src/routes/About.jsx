@@ -16,6 +16,7 @@ const About = () => {
         belowText={gen_text_2}
         photoArray={genesis}
         className="normal-pad pt-12 pb-24"
+        
       />
       <Aim />
       <DescribeAim />

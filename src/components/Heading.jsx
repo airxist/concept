@@ -8,21 +8,18 @@ const Heading = ({
   spanClass,
   description,
   descriptionClass,
-  normal,
+  gradient
 }) => {
   const normalHead = () => (
     <div>
-      <h2 className="text-center">
-        <span className={mainClass}>{mainText}</span>{" "}
-        {spanText && <span className={spanClass}>{spanText}</span>}
-      </h2>
+      <h2 className={`${mainClass} text-center ${gradient && 'text-gradient'}`}>{mainText}</h2>
       {description && <p className={descriptionClass}>{description}</p>}
     </div>
   );
 
   const styledHead = () => (
     <div>
-      <h2 className="text-center">
+      <h2 className={`text-center ${gradient && 'text-gradient'}`}>
         <span className={mainClass}>{mainText}</span>{" "}
         {spanText && <span className={spanClass}>{spanText}</span>}
       </h2>
@@ -30,7 +27,7 @@ const Heading = ({
     </div>
   );
 
-  return normal ? normalHead() : styledHead();
+  return spanText ? styledHead() : normalHead();
 };
 
 export default Heading;

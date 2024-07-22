@@ -38,7 +38,8 @@ import {
   canabra,
   qxmedia,
   join_bg,
-  about_hero
+  about_hero,
+  office_hero
 } from "../assets";
 // join us
 import { join_title, join_text, joint_opening } from "./join";
@@ -50,8 +51,34 @@ import { blog_posts, categories } from "./blog";
 import { member_main, member_span, member_text, members } from "./members";
 // about
 import { gen_text, gen_title, gen_text_2, genesis } from "./about";
+// managed
+import {
+  office_title,
+  office_text,
+  office_text2,
+  office_long1,
+  office_long2,
+  question_main,
+  question_span,
+  question_desc,
+  Q_A,
+  office_values,
+  offices,
+} from "./managed-office";
 
 export {
+  office_hero,
+  office_title,
+  office_text,
+  office_text2,
+  office_long1,
+  office_long2,
+  question_main,
+  question_span,
+  question_desc,
+  Q_A,
+  office_values,
+  offices,
   about_hero,
   gen_text,
   gen_title,

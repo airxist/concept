@@ -25,6 +25,7 @@ const DescribeAim = () => {
           descripition="Our values bind us together to make not just a company, but a family of thought and perseverance."
           descriptionClass="descriptionClass"
           cores={core_values}
+          gap="gap-x-20"
         />
       </div>
     </div>
