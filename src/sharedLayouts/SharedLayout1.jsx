@@ -7,8 +7,8 @@ const SharedLayout1 = () => {
   return (
     <>
       <Header />
-      <Outlet />
-      <Footer />
+      {/* <Outlet />
+      <Footer /> */}
     </>
   );
 };
