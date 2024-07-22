@@ -12,6 +12,8 @@ const WorkSpace = () => {
         <Heading
           mainText="Workspaces that fit"
           spanText="Your Business needs"
+          mainClass="mainTitleClass"
+          spanClass="mainTitleClass font-bold"
         />
 
         <div className="mt-[4.25rem] md:flex normal-pad">

@@ -9,11 +9,16 @@ const Clients = () => {
     <Section className="py-24">
       <div className="normal-pad">
         <div>
-          <Heading mainText="SOME WORDS FROM" spanText="OUR CLIENTS" />
+          <Heading
+            mainText="SOME WORDS FROM"
+            spanText="OUR CLIENTS"
+            mainClass="mainTitleClass"
+            spanClass="mainTitleClass font-bold"
+          />
 
           <div className="md:flex items-center justify-center space-x-9 mt-12">
             {clients.map((client, index) => {
-              return <Card key={index} {...client} profile />
+              return <Card key={index} {...client} profile />;
             })}
           </div>
         </div>

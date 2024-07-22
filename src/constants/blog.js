@@ -17,21 +17,21 @@ const global_date = "29 JUNE 2024";
 
 export const blog_posts = [
   {
-    img: blog_post1,
+    image: blog_post1,
     title: global_title,
     text: global_text,
     company: global_company,
     date: global_date,
   },
   {
-    img: blog_post3,
+    image: blog_post3,
     title: global_title,
     text: global_text,
     company: global_company,
     date: global_date,
   },
   {
-    img: blog_post3,
+    image: blog_post3,
     title: global_title,
     text: global_text,
     company: global_company,

@@ -16,10 +16,10 @@ const Header = () => {
     <header className="relative isolate shadow-lg">
       <div className="h-12 bg-custom_blue flex items-center justify-center space-x-9 sm:space-x-14 md:justify-end normal-pad">
         <div className="flex items-center space-x-6 md:space-x-14">
-          <p className="text-white text-sm md:text-[0.94rem] font-semibold">
+          <p className="text-white text-[0.65rem] md:text-[0.94rem] font-semibold">
             {contact.phone}
           </p>
-          <p className="text-white text-sm md:text-[0.94rem] font-semibold">
+          <p className="text-white text-[0.65rem] md:text-[0.94rem] font-semibold">
             {contact.email}
           </p>
           <div>
@@ -32,7 +32,7 @@ const Header = () => {
                 );
               })}
             </div>
-            <p className="text-sm text-white font-semibold">Download App</p>
+            <p className="text-[0.65rem] md:text-sm text-white font-semibold">Download App</p>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Header = () => {
         <nav
           className={`"ms-auto ${
             !isNavOpen && "hidden"
-          } md:block absolute z-30  top-0 left-0 md:static h-96 md:h-fit w-full md:w-[35rem] ml-auto`}
+          } md:block absolute z-30  top-0 left-0 md:static h-96 md:h-fit w-full md:w-[45rem] ml-auto`}
         >
           <Button
             className="md:hidden absolute top-10 right-10"
@@ -66,7 +66,7 @@ const Header = () => {
                   className="capitalize text-sm md:text-[0.975rem] font-semibold"
                   onClick={closeNav}
                 >
-                  <Link to="">{li.title}</Link>
+                  <Link to={li.url}>{li.title}</Link>
                 </li>
               );
             })}

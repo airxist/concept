@@ -8,7 +8,7 @@ const Network = () => {
   return (
     <Section>
       <div className="normal-pad pb-20">
-        <Heading mainText="OUR NETWORK" spanText="NEAR YOU" />
+        <Heading mainText="OUR NETWORK" spanText="NEAR YOU"  mainClass="mainTitleClass" spanClass="mainTitleClass font-bold" />
         {/* action btns */}
         <div className="flex-center space-x-3 mt-12 overflow-hidden w-full">
           {network.map((net) => {

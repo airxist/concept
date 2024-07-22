@@ -115,11 +115,15 @@ export const navigation = [
   },
   {
     title: "Flexspace Insights",
-    url: "flexspace",
+    url: "/blog",
   },
   {
     title: "About Us",
     url: "/about",
+  },
+  {
+    title: "Join Us",
+    url: "/join",
   },
   {
     title: "Contact Us",
