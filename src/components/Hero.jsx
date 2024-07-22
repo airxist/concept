@@ -12,7 +12,7 @@ const Hero = ({ type }) => {
     return (
       <Section className="h-screen md:h-[32.62rem]">
         <div className="h-full md:flex md:h-full">
-          <div className="flex-center w-full px-5  md:w-1/2 h-1/2 md:h-full relative overflow-hidden">
+          <div className="flex-center w-full px-5  md:w-1/2 h-1/2 md:h-full relative -z-10 overflow-hidden">
             <BigText
               text="YEAH"
               className="hidden md:block absolute -top-32 -right-40 -z-10"
@@ -30,7 +30,7 @@ const Hero = ({ type }) => {
             />
             <div>
               <div className="">
-                <h1 className="font-semibold text-center text-3xl md:text-[2.15rem] md:text-left max-w-[30rem] text-gradient linear-gradient(90deg, #2B428A 0%, #C13E92 100%);">
+                <h1 className="font-semibold text-center text-3xl md:text-[2.15rem] md:text-left max-w-[30rem] text-gradient">
                   {hero_title}
                 </h1>
                 <ul className="mt-5 font-normal text-[1.23rem]">

@@ -49,7 +49,7 @@ const Header = () => {
         <nav
           className={`"ms-auto ${
             !isNavOpen && "hidden"
-          } md:block absolute z-10 top-0 left-0 md:static h-96 md:h-fit w-full md:w-[35rem] ml-auto  bg-white`}
+          } md:block absolute z-30  top-0 left-0 md:static h-96 md:h-fit w-full md:w-[35rem] ml-auto`}
         >
           <Button
             className="md:hidden absolute top-10 right-10"
@@ -58,7 +58,7 @@ const Header = () => {
             <img src={close} alt="close" />
           </Button>
 
-          <ul className="flex flex-col h-full justify-center space-y-7 md:space-y-0  md:space-x-8 md:flex-row items-center md:justify-between">
+          <ul className="flex flex-col h-full justify-center space-y-7 md:space-y-0  md:space-x-8 md:flex-row items-center md:justify-between bg-white">
             {navigation.map((li) => {
               return (
                 <li
