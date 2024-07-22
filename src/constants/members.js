@@ -21,8 +21,8 @@ export const members = [
     name: "Mr. Narayan Bhargava",
     position: "founder",
     comment: [
-      "Mr. Narayan Bhargava is a Chartered Accountant and a Cost Accountant with over 37 years of extensive experience. He is one of the pioneers of the Outsourcing industry in the Indian Market. ",
-      "A very well-known personality in the industry, Mr. Bhargava is recognised as a highly knowledgeable entrepreneur who has played a major role in changing the Outsourcing landscape of the Indian market. ",
+      "Mr. Narayan Bhargava is a Chartered Accountant and a Cost Accountant with over 37 years of extensive experience. He is one of the pioneers of the Outsourcing industry in the Indian Market.",
+      "A very well-known personality in the industry, Mr. Bhargava is recognised as a highly knowledgeable entrepreneur who has played a major role in changing the Outsourcing landscape of the Indian market.",
     ],
     url: "url",
     img: founder,
@@ -31,7 +31,7 @@ export const members = [
     name: "Mr. Kushal Bhargava",
     position: "Co founder",
     comment: [
-      "Mr. Kushal Bhargava is the Co-Founder of MyBranch. MyBranch allows businesses to have a local sales office in their preferred destination. The company has offices in over 25 cities across India. Kushal is a qualified Chartered Accountant and holds a master’s in commerce degree from Mumbai University.",
+      "Mr. Kushal Bhargava is the Co-Founder of MyBranch. MyBranch allows businesses to have a local sales office in their preferred destination. The company has offices in over 25 cities across India. Kushal is a qualified Chartered Accountant and holds a master’s in commerce degree from Mumbai University.",
       "He is also an active member of the Student’s Committee of WIRC (Western India Regional Chapter) of ICAI.",
     ],
     url: "url",

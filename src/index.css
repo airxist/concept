@@ -11,6 +11,14 @@
 } */
 
 @layer base {
+.mainTitleClass {
+  @apply  md:text-[2rem] text-xl
+}
+
+.descriptionClass {
+  @apply text-[1.13rem] text-center font-normal max-w-[709px] mx-auto mt-1
+}
+
   .normal-pad {
     @apply px-5 md:px-[5.38rem]
   }

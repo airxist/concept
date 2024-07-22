@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../sharedLayouts/Section";
 import { blog_posts } from "../constants";
-import Card from "../components/home/reusables/Card";
+import Card from "../components/reusables/Card";
 
 const Blogs = () => {
   return (

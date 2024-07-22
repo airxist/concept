@@ -2,7 +2,7 @@ import React from "react";
 import Section from "../sharedLayouts/Section";
 import { news, news_text, news_title } from "../constants";
 import Button from "../components/Button";
-import Card from "../components/home/reusables/Card";
+import Card from "../components/reusables/Card";
 
 const News = () => {
   return (

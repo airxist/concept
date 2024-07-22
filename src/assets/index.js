@@ -55,45 +55,67 @@ import canabra from "./premium_clients/canara.svg";
 import qxmedia from "./premium_clients/qxmedia.svg";
 
 // network
-import mumbai from './network/mumbai.svg';
-import nagpur from './network/Nagpur.svg';
-import nagshik from './network/nagshik.svg';
-import navi from './network/Navi mumbai.svg';
-import panaja from './network/Panaja.svg';
+import mumbai from "./network/mumbai.svg";
+import nagpur from "./network/Nagpur.svg";
+import nagshik from "./network/nagshik.svg";
+import navi from "./network/Navi mumbai.svg";
+import panaja from "./network/Panaja.svg";
 
-// members 
-import aji from './member/aji.svg';
-import amit from './member/amit.svg';
-import basha from './member/basha.svg';
-import kushal from './member/kushal.svg';
-import founder from './member/narayan.svg';
-import nishtha from './member/nishtha.svg';
-import shadab from './member/shadab.svg';
-import simi from './member/simi.svg';
+// members
+import aji from "./member/aji.svg";
+import amit from "./member/amit.svg";
+import basha from "./member/basha.svg";
+import kushal from "./member/kushal.svg";
+import founder from "./member/narayan.svg";
+import nishtha from "./member/nishtha.svg";
+import shadab from "./member/shadab.svg";
+import simi from "./member/simi.svg";
+import linkedIn2 from "./member/linkedIn.svg";
 
 // awards
-import award1 from './award/award1.svg';
-import award2 from './award/award2.svg';
-import award3 from './award/award3.svg';
-import award4 from './award/award4.svg';
+import award1 from "./award/award1.svg";
+import award2 from "./award/award2.svg";
+import award3 from "./award/award3.svg";
+import award4 from "./award/award4.svg";
 
 // news
-import dhLogo from './news/DH.svg';
-import ttLogo from './news/TT.svg';
-import feLogo from './news/FE.svg';
-import daily_hunt from './news/daily.svg';
-import the_times from './news/The_times.svg';
-import fe from './news/Fe-img.svg';
+import dhLogo from "./news/DH.svg";
+import ttLogo from "./news/TT.svg";
+import feLogo from "./news/FE.svg";
+import daily_hunt from "./news/daily.svg";
+import the_times from "./news/The_times.svg";
+import fe from "./news/Fe-img.svg";
 
 // branch
-import blog_post1 from './blog/blog_post1.svg';
-import blog_post3 from './blog/blog_post3.svg';
+import blog_post1 from "./blog/blog_post1.svg";
+import blog_post3 from "./blog/blog_post3.svg";
 
 // join
-import join_bg from './join/join_bg.svg';
+import join_bg from "./join/join_bg.svg";
 
+// about
+import about_hero from "./about/about_hero.svg";
+import gen_1 from "./about/genesis_1.svg";
+import gen_2 from "./about/genesis_2.svg";
+import gen_3 from "./about/genesis_3.svg";
+import customer from "./about/customer.svg";
+import ethical from "./about/ethical_biz.svg";
+import vision from "./about/vision.svg";
+import mission from "./about/mission.svg";
+import respect from "./about/respect.svg";
+import transparency from "./about/transparency.svg";
 
 export {
+  about_hero,
+  gen_1,
+  gen_2,
+  gen_3,
+  customer,
+  ethical,
+  vision,
+  mission,
+  respect,
+  transparency,
   join_bg,
   blog_post1,
   blog_post3,
@@ -115,6 +137,7 @@ export {
   nishtha,
   shadab,
   simi,
+  linkedIn2,
   mumbai,
   nagpur,
   nagshik,
@@ -156,5 +179,5 @@ export {
   adit,
   reliance,
   canabra,
-  qxmedia
+  qxmedia,
 };

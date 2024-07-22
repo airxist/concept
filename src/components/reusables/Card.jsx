@@ -1,4 +1,4 @@
-import Button from "../../Button";
+import Button from "../Button";
 
 const Card = ({ img, title, text, logo, date, company }) => {
   return (

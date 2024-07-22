@@ -8,6 +8,7 @@ import {
   facebook,
   instagram,
   X,
+  linkedIn2,
   youtube,
   linkedIn,
   googlePlayStore,
@@ -37,6 +38,7 @@ import {
   canabra,
   qxmedia,
   join_bg,
+  about_hero
 } from "../assets";
 // join us
 import { join_title, join_text, joint_opening } from "./join";
@@ -44,8 +46,21 @@ import { join_title, join_text, joint_opening } from "./join";
 import { news_text, news_title, news } from "./news";
 // blog
 import { blog_posts, categories } from "./blog";
+// members
+import { member_main, member_span, member_text, members } from "./members";
+// about
+import { gen_text, gen_title, gen_text_2, genesis } from "./about";
 
 export {
+  about_hero,
+  gen_text,
+  gen_title,
+  gen_text_2,
+  genesis,
+  member_main,
+  member_span,
+  member_text,
+  members,
   categories,
   blog_posts,
   news_text,
@@ -68,6 +83,7 @@ export {
   will,
   ellipse1,
   ellipse2,
+  linkedIn2,
 };
 
 export const companyReach = [
@@ -330,8 +346,6 @@ export const workspaces = [
     active: false,
   },
 ];
-
-
 
 export const contact_main = "NEED TO";
 
