@@ -25,15 +25,14 @@ const Leading = () => {
             </div>
           </div>
 
-          <div className="md:w-1/2 mt-10 pb-10 text-white px-10 min-h-[322px]">
+          <div className="md:w-1/2 mt-10 pb-10 text-white md:px-10 min-h-[322px]">
             <div>
               <Heading
                 mainText="ONE OF INDIA’S LEADING"
                 spanText="CO-WORKING & SHARED OFFICE NETWORK"
                 description={leading_network_text}
-                main={true}
-                fontSize1="text-2xl  text-center md:text-4xl md:text-left"
-                fontSize2="text-justify text-sm"
+                mainClass="mainTitleClass text-left"
+                spanClass="mainTitleClass"
               />
               <Button className="border border-custom_pink text-custom_pink px-3 py-1 mt-4">
                 Talk to an Expert

@@ -111,7 +111,7 @@ export const navigation = [
   },
   {
     title: "Solutions",
-    url: "/solutions",
+    url: "/members",
   },
   {
     title: "Flexspace Insights",
@@ -128,6 +128,10 @@ export const navigation = [
   {
     title: "Contact Us",
     url: "/contact",
+  },
+  {
+    title: "Awards",
+    url: "/awards",
   },
 ];
 

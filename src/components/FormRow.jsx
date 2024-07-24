@@ -13,7 +13,7 @@ const FormRow = ({ label, type, name, placeholder, className, city, contact }) =
           name={name}
           placeholder={placeholder}
           id={name}
-          className="p-3 w-full h-full outline-none border-none text-[0.8rem] font-normal"
+          className="p-3 font-or w-full h-full outline-none border-none text-[0.8rem] font-normal"
         />
       </div>
     );

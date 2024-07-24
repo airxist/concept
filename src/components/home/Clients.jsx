@@ -13,10 +13,10 @@ const Clients = () => {
             mainText="SOME WORDS FROM"
             spanText="OUR CLIENTS"
             mainClass="mainTitleClass"
-            spanClass="mainTitleClass font-bold"
+            spanClass="mainTitleClass"
           />
 
-          <div className="md:flex items-center justify-center space-x-9 mt-12">
+          <div className="md:flex items-center justify-center space-y-3 md:space-y-0 md:space-x-9 mt-12">
             {clients.map((client, index) => {
               return <Card key={index} {...client} profile />;
             })}

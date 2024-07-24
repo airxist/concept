@@ -12,6 +12,18 @@ export default {
         },
         custom_ash: "#F0F0F0",
         custom_pink: "#D33C92"
+      },
+      fontFamily: {
+        ob: ['os_bold'],
+        oeb: ['os_exbold'],
+        osb: ['os_semibold'],
+        om: ['os_med'],
+        or: ['os_reg'],
+        sb: ['s_bold'],
+        seb: ['s_exbold'],
+        ssb: ['s_semibold'],
+        sm: ['s_med'],
+        sr: ['s_reg'],
       }
     }
   },

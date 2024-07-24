@@ -19,9 +19,9 @@ const Heading = ({
 
   const styledHead = () => (
     <div>
-      <h2 className={`text-center ${gradient && 'text-gradient'}`}>
+      <h2 className={`text-center font-sr ${gradient && 'text-gradient'}`}>
         <span className={mainClass}>{mainText}</span>{" "}
-        {spanText && <span className={spanClass}>{spanText}</span>}
+        {spanText && <span className={`${spanClass} font-sb font-bold`}>{spanText}</span>}
       </h2>
       {description && <p className={descriptionClass}>{description}</p>}
     </div>

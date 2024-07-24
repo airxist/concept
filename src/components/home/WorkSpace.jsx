@@ -12,8 +12,8 @@ const WorkSpace = () => {
         <Heading
           mainText="Workspaces that fit"
           spanText="Your Business needs"
-          mainClass="mainTitleClass"
-          spanClass="mainTitleClass font-bold"
+          mainClass="mainTitleClass uppercase"
+          spanClass="mainTitleClass uppercase"
         />
 
         <div className="mt-[4.25rem] md:flex normal-pad">
@@ -24,7 +24,7 @@ const WorkSpace = () => {
                   key={spacesIndex}
                   className="flex items-center p-2.5 justify-between"
                 >
-                  <p className="text-xl">{spaces.title}</p>
+                  <p className="text-xl font-or">{spaces.title}</p>
                   <div>
                     <img src={arrow} alt="arrow" />
                   </div>
@@ -32,19 +32,19 @@ const WorkSpace = () => {
               );
             })}
           </div>
-          <div className="md:w-4/12 min-h-80 py-6 pl-12 pr-16">
+          <div className="md:w-4/12 min-h-80 md:py-6 md:pl-12 md:pr-16">
             <div className="relative overflow min-h-[19rem]">
               {workspaces.map((spaces, spaceIndex) => {
                 return (
                   <div key={spaceIndex} className="absolute  h-full  bg-white">
                     <div className="bg-white">
-                      <p className="text-xl underline underline-offset-8 text-custom_blue font-semibold text-center md:text-left">
+                      <p className="text-xl underline underline-offset-8 text-custom_blue font-semibold font-osb text-center md:text-left">
                         {spaces.title}
                       </p>
                     </div>
 
                     <div className="my-8">
-                      <p className="text-[0.75rem]">{spaces.brief}</p>
+                      <p className="text-[0.75rem] font-or">{spaces.brief}</p>
                     </div>
 
                     <Button className="bg-custom_blue text-white text-[0.713rem] py-2.5 px-[1.12rem] mt-auto  block mx-auto md:mx-0">
@@ -64,10 +64,10 @@ const WorkSpace = () => {
           {companyReach.map((reach, reachIndex) => {
             return (
               <div key={reachIndex} className="col-span-1">
-                <h2 className="text-gradient text-4xl md:text-8xl font-extrabold text-center">
+                <h2 className="text-gradient text-4xl md:text-8xl font-extrabold text-center font-oeb">
                   {reach.count}+
                 </h2>
-                <p className="text-center text-sm md:text-[2rem] font-normal">
+                <p className="text-center text-sm md:text-[2rem] font-normal font-or">
                   {reach.title}
                 </p>
               </div>

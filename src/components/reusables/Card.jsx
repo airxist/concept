@@ -60,18 +60,18 @@ const Card = ({
         </div>
 
         <div className="col-span-2 pt-7 pr-5">
-          <h5 className={`${before ? 'font-semibold text-sm' : 'text-xl font-bold'}`}>{title}</h5>
-          <p className={`${before ? 'text-[0.65rem]' : 'text-[0.81rem]'} font-normal`} >{comment}</p>
+          <h5 className={`${before ? 'font-semibold text-sm' : 'text-xl font-bold'} font-ob`}>{title}</h5>
+          <p className={`${before ? 'text-[0.65rem]' : 'text-[0.81rem]'} font-normal font-or text-slate-400`} >{comment}</p>
           {before ? (
             <div className="mt-10">
-              <p className="text-sm font-semibold">
+              <p className="text-sm font-semibold font-osb">
                 {before} "<span className="text-custom_blue">{title}</span>" {after}
               </p>
             </div>
           ) : (
             <div className="mt-4">
-              <h6 className="font-bold text-[0.81rem] capitalize">{name}</h6>
-              <p className="font-light text-[0.81rem]">{role}</p>
+              <h6 className="font-bold text-[0.81rem] capitalize font-ob">{name}</h6>
+              <p className="font-light text-[0.81rem] font-or text-slate-400">{role}</p>
             </div>
           )}
         </div>

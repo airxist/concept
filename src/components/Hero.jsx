@@ -1,3 +1,4 @@
+import { useGSAP } from "@gsap/react";
 import {
   companyAward,
   hero_title,
@@ -6,6 +7,7 @@ import {
 } from "../constants";
 import Section from "../sharedLayouts/Section";
 import BigText from "./BigText";
+import gsap from "gsap";
 
 const Hero = ({ type }) => {
   const HomeHero = () => {
@@ -15,25 +17,25 @@ const Hero = ({ type }) => {
           <div className="flex-center w-full px-5  md:w-1/2 h-1/2 md:h-full relative -z-10 overflow-hidden">
             <BigText
               text="YEAH"
-              className="hidden md:block absolute -top-32 -right-40 -z-10"
-              textClass="text-custom_ash text-[14.627rem] font-extrabold"
+              className="-top-32 -right-40"
+              textClass="text-custom_ash text-[14.627rem]"
             />
             <BigText
               text="8"
-              className="hidden md:block absolute top-[289.8px] -left-6 -z-10"
-              textClass="text-custom_ash text-[22.32rem] font-extrabold"
+              className="top-[289.8px] -left-6"
+              textClass="text-custom_ash text-[22.32rem]"
             />
             <BigText
               text="#"
-              className="hidden md:block absolute -top-[58px] -left-[31px] -z-10"
-              textClass="text-[14rem] font-extrabold"
+              className="-top-[58px] -left-[31px]"
+              textClass="text-[14rem]"
             />
             <div>
               <div className="">
-                <h1 className="font-semibold text-center text-3xl md:text-[2.15rem] md:text-left max-w-[30rem] text-gradient">
+                <h1 className="font-semibold font-ssb text-center text-3xl md:text-[2.15rem] md:text-left max-w-[30rem] text-gradient">
                   {hero_title}
                 </h1>
-                <ul className="mt-5 font-normal text-[1.23rem]">
+                <ul className="mt-5 font-normal text-[1.23rem] font-sr">
                   {national_titles.map((title, titleIndex) => {
                     return (
                       <li

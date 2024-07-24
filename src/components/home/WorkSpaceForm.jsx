@@ -6,7 +6,7 @@ const WorkSpaceForm = () => {
     <div className="min-h-1 relative">
       <div className="md:absolute left-0 z-10 m-auto md:-mt-10 w-full">
         <form className="min-h-36 bg-custom_pink max-w-[67rem] m-auto py-6 px-9 ">
-          <p className="font-normal text-white text-center md:text-left text-[1.08rem]">
+          <p className="font-normal font-or text-white text-center md:text-left text-[1.08rem]">
             Meet India's number one workspace provider
           </p>
           <div className="mt-5 flex flex-col md:flex-row items-center space-y-3 md:space-x-3 md:space-y-0">

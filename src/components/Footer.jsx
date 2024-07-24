@@ -64,7 +64,7 @@ const Footer = () => {
               })}
             </div>
             <div className="mt-4">
-              <h4 className="font-bold text-[0.74rem] text-center mb-1">
+              <h4 className="font-bold text-[0.74rem] text-center mb-1 font-ob">
                 Download <br />
                 MyBranch SpaceOnDemand App
               </h4>

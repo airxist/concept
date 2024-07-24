@@ -2,22 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .text-stroke {
-  -webkit-text-stroke: ;
-} */
-
-/* :root {
-  color-scheme: m;
-} */
+@font-face {
+  font-family: os_bold;
+  src: url(./assets/font/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: os_exbold;
+  src: url(./assets/font/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: os_semibold;
+  src: url(./assets/font/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: os_med;
+  src: url(./assets/font/OpenSans-Medium.ttf);
+}
+@font-face {
+  font-family: os_reg;
+  src: url(./assets/font/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: s_bold;
+  src: url(./assets/font/Syne-Bold.ttf);
+}
+@font-face {
+  font-family: s_exbold;
+  src: url(./assets/font/Syne-ExtraBold.ttf);
+}
+@font-face {
+  font-family: s_semibold;
+  src: url(./assets/font/Syne-SemiBold.ttf);
+}
+@font-face {
+  font-family: s_med;
+  src: url(./assets/font/Syne-Medium.ttf);
+}
+@font-face {
+  font-family: s_reg;
+  src: url(./assets/font/Syne-Regular.ttf);
+}
 
 @layer base {
-.mainTitleClass {
-  @apply  md:text-[2rem] text-xl
-}
+  .mainTitleClass {
+    @apply md:text-[2rem] text-xl
+  }
 
-.descriptionClass {
-  @apply text-[1.13rem] text-center font-normal max-w-[709px] mx-auto mt-1
-}
+  .descriptionClass {
+    @apply text-[1.13rem] text-center font-normal font-or max-w-[751px] mx-auto mt-1
+  }
 
   .normal-pad {
     @apply px-5 sm:px-5 lg:px-[5.38rem]
@@ -32,11 +65,11 @@
   }
 
   .footer-h {
-    @apply font-bold mb-3 text-base
+    @apply font-bold mb-3 text-base font-ob
   }
 
   .footer-p {
-    @apply font-normal text-sm
+    @apply font-normal text-sm font-or
   }
 
   .footer-company {
