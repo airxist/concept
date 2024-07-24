@@ -12,6 +12,9 @@ const Members = () => {
           mainText={member_main}
           spanText={member_span}
           description={member_text}
+          mainClass="mainTitleClass text-gradient"
+          spanClass="mainTitleClass text-gradient"
+          descriptionClass="descriptionClass"
         />
 
         <div className="my-10 grid grid-cols-2 md:grid-cols-3 gap-10">
